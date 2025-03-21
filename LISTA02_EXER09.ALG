@@ -1,5 +1,4 @@
 algoritmo "lista02_exer09"
-//NÃO TESTADO <<<<<<<<<<<<<<<
 
 //9. Uma empresa decidiu conceder um aumento de salário a seus funcionários de acordo com a tabela:
 //Em R$ Índice de aumento

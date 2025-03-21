@@ -1,5 +1,4 @@
 algoritmo "lista02_exer09"
-//NÃO TESTADO <<<<<<<<<<<<<<<
 
 //10. A 3NET decidiu dar a seus funcionários uma gratificação de Páscoa. Para cada empregado da empresa tem-se
 //nome, número de horas extras trabalhadas e número de faltas. Para calcular o prêmio, subtrai-se dois terços das
@@ -14,29 +13,30 @@ algoritmo "lista02_exer09"
 
 var
 nome: caractere
-he,ht,f: inteiro
+he,f: inteiro
+ht: real
 
 inicio
 escreval("Digite o nome do funcionário: ")
 leia(nome)
-escreval("Digite o número de horas extras que",nome," trabalhou: "
+escreval("Digite o número de horas extras que ",nome," trabalhou: ")
 leia(he)
-escreval("Digite o número de faltas de",nome,": ")
+escreval("Digite o número de faltas de ",nome,": ")
 leia(f)
 ht <- he - (2/3)*f
 se (ht > 40) entao
-    escreval("A gratificação de",nome," é R$1000,00.")
+    escreval("A gratificação de ",nome," é R$1000,00.")
 senao
     se (ht>30) entao
-        escreval("A gratificação de",nome," é R$800,00.")
+        escreval("A gratificação de ",nome," é R$800,00.")
     senao
         se (ht>20) entao
-            escreval("A gratificação de",nome," é R$600,00.")
+            escreval("A gratificação de ",nome," é R$600,00.")
         senao
             se (ht>10) entao
-                escreval("A gratificação de",nome," é R$400,00.")
+                escreval("A gratificação de ",nome," é R$400,00.")
             senao
-                escreval("A gratificação de",nome," é R$200,00.")
+                escreval("A gratificação de ",nome," é R$200,00.")
             fimse
         fimse
     fimse
