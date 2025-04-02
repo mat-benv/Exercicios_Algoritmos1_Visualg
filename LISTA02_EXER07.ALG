@@ -12,21 +12,21 @@ var
    x,y,z: real
 
 inicio
-   escreva("Digite a medida dos lados do tri√¢ngulo: ")
+   escreva("Digite a medida dos lados do tri‚ngulo: ")
    leia(x,y,z)
    se (x < y + z) e (y < x + z) e (z < x + y) entao
       se (x=y) e (y=z) entao
-         escreva("O tri√¢ngulo √© equil√°tero")
+         escreva("O tri‚ngulo È equil·tero")
       senao
          se (x<>y) e (y<>z) e (x<>z) entao
-            escreva("O tri√¢ngulo √© escaleno")
+            escreva("O tri‚ngulo È escaleno")
          senao
 
-            escreva("O tri√¢ngulo √© is√≥sceles")
+            escreva("O tri‚ngulo È isÛsceles")
          fimse
       fimse
    senao
-      escreva("Os valores lidos n√£o formam um tri√¢ngulo")
+      escreva("Os valores lidos n„o formam um tri‚ngulo")
    fimse
 
 
