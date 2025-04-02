@@ -14,13 +14,13 @@ inicio
    se (delta > 0) entao
       x1 <- (-b + raizq(delta))/(2*a)
       x2 <- (-b - raizq(delta))/(2*a)
-      escreval ("A equaÃ§Ã£o tem 2 raizes reais:",x1," e",x2)
+      escreval ("A equação tem 2 raizes reais:",x1," e",x2)
    senao
       se (delta = 0) entao
          x1 <- (-b)/(2*a)
-         escreval ("A equaÃ§Ã£o tem apenas 1 raiz real:", x1)
+         escreval ("A equação tem apenas 1 raiz real:", x1)
       senao
-         escreval("A equaÃ§Ã£o nÃ£o tem raÃ­zes reais.")
+         escreval("A equação não tem raízes reais.")
       fimse
    fimse
 

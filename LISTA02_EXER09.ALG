@@ -14,24 +14,24 @@ var
 salario: real
 
 inicio
-escreval("Digite o sal√°rio atual do trabalhador: ")
+escreval("Digite o sal·rio atual do trabalhador: ")
 leia(salario)
 se (salario > 2000) entao
-    escreval("N√£o h√° aumento.")
+    escreval("N„o h· aumento.")
 senao
     se (salario > 1500) entao
-        escreval("O novo sal√°rio √©:", salario*1.04)
+        escreval("O novo sal·rio È:", salario*1.04)
     senao
         se (salario > 1000) entao
-            escreval("O novo sal√°rio √©:",salario*1.07)
+            escreval("O novo sal·rio È:",salario*1.07)
         senao
             se (salario > 700) entao
-                escreval("O novo sal√°rio √©:",salario*1.1)
+                escreval("O novo sal·rio È:",salario*1.1)
             senao
                 se (salario > 400) entao
-                    escreval("O novo sal√°rio √©:", salario*1.12)
+                    escreval("O novo sal·rio È:", salario*1.12)
                 senao
-                    escreval("O novo sal√°rio √©:", salario*1.15)
+                    escreval("O novo sal·rio È:", salario*1.15)
                 fimse
             fimse
         fimse
